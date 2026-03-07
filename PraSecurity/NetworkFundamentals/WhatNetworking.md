@@ -24,8 +24,9 @@ Jaringan dapat di temui di mana-mana, mulai dari kehidupan sosial, rumah,  digit
 ### Internet
 
 ```Internet``` adalah Jaringan raksasa yang terjadi dari kumpulan jaringan kecil.
-
-<img src="D:\TryHackMe\Asset\internet2.png">
+<p>
+  <img src="D:\TryHackMe\Asset\internet2.png">
+</p>
 
 | Nama | Jenis |
 |-----|----------|
