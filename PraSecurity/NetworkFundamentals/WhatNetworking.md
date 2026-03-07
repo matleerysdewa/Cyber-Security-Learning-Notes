@@ -43,6 +43,36 @@ Jaringan dapat di temui di mana-mana, mulai dari kehidupan sosial, rumah,  digit
 
 ### Identifying Devices On Network
 
+untuk mengetahui dan di kenali jaringan pada perangkat, maka di butuhkan identitas berupa **IP** dan **MAC**. 
+
+#### IP
+Internet Protocol ibaratkan seperti `Alamat Rumah`.
+| Versi | Format | Kapasitas | Contoh |
+|-------|--------|-----------|--------|
+|IPv4| 4-oktet, 32bit| 4,3 Miliar| 192.168.1.1|
+|IPv6| 8 klmp Heksadimal, 64 Bit| ~ | 2001:0db8:85a3:0000:0000:8a2e:0370:7334 |
+
+> Analogi 
+>IPv4 adalah perumahaan yang terbatas stoknya. 
+>IPv6 adlah perumahan yang luas dan tidak hampir tidak terbatas.
+
+#### MAC
+Media Acces Control ibaratkan seperti `Nomor Seri Rumah` yang sudah ditentukan oleh arsitek (pabrik).
+
+| Fungsi | perangkat bisa di kenali oleh jaringan dan mengirim ke tujuan |
+|--------|----------|
+| Contoh | 00:1A:2B:3C:4D:5E |
+| Karakter | Heksadimal 12 karakter, : tanda pemisah |
+| Kelemahan | perangkat dapat di palsukan dengan **Spoofing**, alamat MAC di gunakan pihak ketiga |
+
+
+---
+
+### Ping
+cara mengecek suatu perangkat di jaringan apakah bisa dihubungi dan kecepatannya.
+
+Menggunakan **ICMP (Internet Control Message Protocol)** untuk menentukan kinerja koneksi.
+
 
 
 
