@@ -74,6 +74,10 @@ cara mengecek suatu perangkat di jaringan apakah bisa dihubungi dan kecepatannya
 
 Menggunakan **ICMP (Internet Control Message Protocol)** untuk menentukan kinerja koneksi.
 
+<p align="center>
+  <img src="../../Asset/ping.png">  
+</p>
+
 
 
 
