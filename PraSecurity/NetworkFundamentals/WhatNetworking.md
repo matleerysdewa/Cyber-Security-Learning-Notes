@@ -25,13 +25,14 @@ Jaringan dapat di temui di mana-mana, mulai dari kehidupan sosial, rumah,  digit
 
 ```Internet``` adalah Jaringan raksasa yang terjadi dari kumpulan jaringan kecil.
 
-<img src="D:\TryHackMe\Asset\internet2.png">
+<p align="left">
+  <img src="../../Asset/internet2.png" alt="Internet" width="400" alt="internet2">
+</p>
 
 | Nama | Jenis |
 |-----|----------|
 |**Bob, Sandi ,Dian ,May**| **Network #n**|
 | Ana | Internet |
-
 
 > ###### *Analogi*
 > Ana memiliki teman bernama Bob dan Sandi dari tempat tinggal yang sama, lalu si Ana juga memiliki teman bernama May dan Dian, mereka berdua berasal dari luar kota. Karena si Ana ingin memperkenalkan mereka ke Bob dan Sandi, Ana harus menerjemahkan atau meneruskan pesan ( percakapan ) dari si May dan Dian, sehingga dari situlah terjadinya dan mereka dapat berkomunikasi dengan baik.
