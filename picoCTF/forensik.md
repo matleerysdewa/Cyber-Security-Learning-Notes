@@ -27,7 +27,28 @@ Dalam gambar tersebut ada apa saja ?
 | Buka Berkas | Telusuri file dan klik | gunakan perintah cat untuk membuka file | &cat | cat menampilkan semua teks dalam file |
 | Unduh aplikasi | Jelajahi
 
+##### Aspek yang menantang dalam menggunakan shell
+1. Menghafal perintah 
+2. Mengetik Perintah panjang 
+3. Menghafal argumen untuk perintah
 
+**Command untuk Linux**
+> **cd**
+untuk pindah ke halaman awal
+
+> **pwd**
+untuk melihat direktori/halaman yang sedang digunakan
+
+>**ls**
+daftar isi direktori
+
+>**mkdir**
+membuat direktori baru 
+
+>**cat**
+gabungkan file dan cetak file yang dituju
+
+untuk mencari penjelasan command lainnya bisa buka [disini](https://explainshell.com/about)
 
 ## Forensik 
 
