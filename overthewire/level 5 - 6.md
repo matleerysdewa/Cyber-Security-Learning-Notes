@@ -43,9 +43,13 @@ lalu, kita telah masuk dalam direktori kerja nya inhere. untuk mengetahui isi ny
 Disini akan di tampilkan beberapa direktori dan ga mungkin buka direktorinya satu-satu, maka dari itu kita menggunakan ``find``
 
 > **find . -type f -size 1033c ! -executable**
+
 ``.`` berarti direktori saat ini
+
 ``-type f`` berarti bertipe file
+
 ``-size 1033c`` berarti yang berukuran 1033 bytes
+
 ``! -executable`` berarti yang tidak dapat di eksekusi
 
 maka kita akan mendapatkan sebuah file yang berisi sesuai apa yang kita cari, lalu ambil outputnya 
