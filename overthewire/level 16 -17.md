@@ -1,11 +1,11 @@
-### Level 15 - 16
+### Level 16 - 17
 
 ---
 ### Tujuan Level
 
-Tujuan level ini adalah dengan mengirimkan kata sandi level saat ini ke port 30001 di localhost menggunakan enkripsi SSL/TLS.
+Tujuan level ini adalah mengirim kata sandi saat ini ke port antara 31000-32000 dan cari tahu port mana yang terbuka untuk dapat mendengarkan ssl/tls. 
 
-Pada level ini masuk ke bandit15 dan password yang di gunakan adalah ``8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo``
+Pada level ini masuk ke bandit16 dan password yang di gunakan adalah ``kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx``
 
 ---
 
@@ -31,17 +31,14 @@ Pada level ini masuk ke bandit15 dan password yang di gunakan adalah ``8xCjnmgoK
 | chmod | mengatur atau mengubah hak akses (permissions) dari sebuah file atau direktori |
 | openssl | alat pembuat koneksi menjadi aman |
 | s_client | menghubungkan ke server mengggunakan ssl/tls |
+| nmap | Alat eksplorasi jaringan dan pemindai keamanan/port |
 
 
 ---
 
 #### Prosesnya
 
-Masuk menggunakan ``ssh bandit 15`` lalu untuk menghubungkan ke server menggunakan ssl/tls kita ketik sperti ini 
-
->**openssl s_client -connect localhost:30001**
-
-ketika sudah, maka kita akan di suruh mengisi dengan password level 15 dan setelah mengirim password, muncul password untuk level 16.
+Masuklah 
 
 #### Hasil 
 

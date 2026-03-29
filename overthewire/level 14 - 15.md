@@ -1,11 +1,11 @@
-### Level 13 - 14
+### Level 14 - 15
 
 ---
 ### Tujuan Level
 
-Tujuan level ini adalah Anda tidak mendapatkan kata sandi berikutnya, tetapi Anda mendapatkan kunci SSH pribadi yang dapat digunakan untuk masuk ke level berikutnya. 
+Tujuan level ini adalah mengirimkan kata sandi saat ini ke localhost port 30000.
 
-Pada level ini masuk ke bandit13 dan password yang di gunakan adalah ``FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn``
+Pada level ini masuk ke bandit14 dan password yang di gunakan adalah ``-``
 
 ---
 
@@ -29,43 +29,31 @@ Pada level ini masuk ke bandit13 dan password yang di gunakan adalah ``FO5dwFsc0
 | mv | memindahkan ( menggnti nama ) file |
 | scp | salinan aman (program penyalinan file jarak jauh) |
 | chmod | mengatur atau mengubah hak akses (permissions) dari sebuah file atau direktori |
+| nc | mentransfer data dari satu host ke host lain dengan membuat model klien/server dasar |
 
 
 ---
 
 #### Prosesnya
 
-langkah pertama adalah dengan masuk ke hostnya menggunakan ``ssh``
+Setelah tadi masuk menggunakan `ssh -i`, maka kita mencari password level 14 ini dengan cara melihat soal teka-teki sebelumnya yang di sebutkan di `/etc/bandit_pass/bandit14 dan hanya dapat dibaca oleh pengguna bandit14`.
 
-lalu untuk mengetahui apakah ada file yang di maksud apakah ada dalam direktori atau tidak, ketikan ini 
+maka kita ketikan saja langsung dengan cara ini
 
-> **ls**
+> **cat /etc/bandit_pass/bandit14 | nc localhost 30000**
+`|` di baca *lalu*
+cara baca keseluruhan : ambil yang ada di /etc/bandit_pass/bandit14, lalu kirimkan ke localhost port 30000.
 
-lalu akan ada dua file yaitu `HINT` dan `sshkey.private`. karena `sshkey.private` adalah kunci untuk masuk di bandit14, maka kita harus mendownload atau menyalin dari server ke home kita menggunakan `scp`
-
->**scp -P 2220 bandit13@bandit.labs.overthewire.org:~/sshkey.private ~/**
-`~/` adalah tujuan mau di taruh di mana file sshkey.private
-
-setelah itu, karena belum di berikan izin, mka kita gunakan `chmod`
-
->**chmod 600 sshkey.private**
-
-masuk ke bandit14 dengan cara ini
-
->**ssh -i ~/sshkey.private bandit14@bandit.labs.overthewire.org -p 2220**
-`-i  file identitas`
-        Memilih berkas tempat identitas (kunci privat) untuk otentikasi kunci publik dibaca.
-
-maka kita bisa login ke bandit14.
+maka setelah itu akan muncul password level 15.
 
 #### Hasil 
 
-pada level ini akan mendapatkan password level 14 
-``password Level 14 : -``
+pada level ini akan mendapatkan password level 15 
+``password Level 15 : 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo``
 
 ---
 #### Dokumentasi 
-<img src = "E:\Cyber-Security-Learning-Notes\overthewire\dokumentasi\level 13 -14.png">
+<img src = "E:\Cyber-Security-Learning-Notes\overthewire\dokumentasi\level 14 - 15.png">
 
 
 
